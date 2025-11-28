@@ -11,13 +11,13 @@
 
 //String concatenation back ticks and template literals
 
-firstName = "Carlos";
-lastName = "Stevenson";
-thisYear = 1965;
-birthYear = 1947;
-age = thisYear - birthYear;
-fullName = firstname + " " + lastName;
-greeting = `Hello! My name is ${fullName}` + ` and I am ${age} years old.`;
+const firstName = "Carlos";
+const lastName = "Stevenson";
+const thisYear = 1965;
+const birthYear = 1947;
+const age = thisYear - birthYear;
+const fullName = firstName + " " + lastName;
+const greeting = `Hello! My name is ${fullName}` + ` and I am ${age} years old.`;
 // Do not change this
 module.exports = {
   firstName: typeof firstName === 'undefined' ? undefined : firstName,
